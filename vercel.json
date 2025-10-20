@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ],
   "env": {
     "VITE_API_URL": "https://impactcv-backend.onrender.com/api"
