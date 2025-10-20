@@ -1,13 +1,23 @@
 # 🚀 ImpactCV - Create Resumes That Make an Impact
+## 🎯 Objective
 
-[![GitHub Stars](https://img.shields.io/github/stars/asfand-dev/impact-cv?style=social)](https://github.com/asfand-dev/impact-cv)
-[![GitHub Forks](https://img.shields.io/github/forks/asfand-dev/impact-cv?style=social)](https://github.com/asfand-dev/impact-cv)
-[![License](https://img.shields.io/github/license/asfand-dev/impact-cv)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/asfand-dev/impact-cv/pulls)
-[![Built with Vite](https://img.shields.io/badge/Built%20with-Vite-blueviolet)](https://vitejs.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Radix UI](https://img.shields.io/badge/Radix_UI-%23161618.svg?style=flat&logoColor=%23fff)](https://www.radix-ui.com/)
+ImpactCV is a simplified version of resume builders inspired by Enhancv and FlowCV, covering the following key features:
+
+1. **On-canvas Editing** – Section-based editing inside the resume itself
+2. **Design Customization** – Change colors, fonts, and styles
+3. **Template Switching** – Ability to change templates dynamically
+4. **Undo–Redo Stack** – For better user experience
+5. **PDF Download** – Text-based, not image snapshots
+6. **Reordering Sections** – Drag-and-drop functionality
+7. **Public Sharing** – Generate a shareable link
+
+## 🧩 Components Implemented
+
+- **Resume Sections** – With full customizability
+- **Templates** – Multiple template designs
+- **Design & Font Styling** – Consistent, reusable, and scalable
+- **Schema Design** – Efficient schema for data management
+- **UI Polishing** – Micro-interactions, attention to UX consistency
 
 ## ✨ Overview
 
@@ -32,7 +42,7 @@ Forget tedious formatting and generic templates. ImpactCV offers a streamlined e
 
 ### AI-Powered Job Tailoring 🤖
 
--   **"Tailor for Job Description" Button:** Let OpenAI automatically optimize your CV content based on specific job roles, ensuring maximum compatibility with ATS and increased recruiter visibility.
+-   **"Tailor for Job Description" Button:** Let Gemini AI automatically optimize your CV content based on specific job roles, ensuring maximum compatibility with ATS and increased recruiter visibility.
 
 ### Beautiful & Distinctive Themes 🎨
 
@@ -48,7 +58,65 @@ Forget tedious formatting and generic templates. ImpactCV offers a streamlined e
 -   **HTML Export:** Self-contained HTML file ready to host or share.
 -   **PDF Export:** Simple, high-quality print or PDF generation.
 
-## 🚀 Technology Stack
+## 🛠️ Technologies Used
+
+### Frontend
+- **React** - UI library for building component-based interfaces
+- **TypeScript** - For type-safe code
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Unstyled, accessible UI components
+- **Lucide React** - Icon library
+- **React-Quill** - Rich text editor
+- **UUID** - For generating unique identifiers
+- **Sonner** - Toast notifications
+- **React-Resizable-Panels** - For resizable UI components
+
+### Backend
+- **Express** - Node.js web application framework
+- **PostgreSQL** - Relational database
+- **Multer** - For file uploads
+- **CORS** - Cross-Origin Resource Sharing middleware
+- **dotenv** - Environment variable management
+
+### Development Tools
+- **ESLint** - Code linting
+- **TypeScript-ESLint** - TypeScript integration for ESLint
+- **SWC** - Fast JavaScript/TypeScript compiler
+
+## 📊 Evaluation Criteria
+
+### Technical Assessment
+1. **Code Quality:** Clean, maintainable, well-documented code
+2. **Architecture:** Scalable system design and component structure
+3. **Performance:** Efficient queries, optimized rendering, fast load times
+4. **Security:** Proper authentication, data validation, secure practices
+
+### Feature Implementation
+1. **Functionality:** Working features as per requirements
+2. **User Experience:** Intuitive interface and smooth interactions
+3. **Edge Cases:** Proper error handling and validation
+4. **Responsiveness:** Mobile and desktop compatibility
+
+### Bonus Points
+- **Innovation:** Creative feature additions beyond requirements
+- **Documentation:** Comprehensive README and code comments
+- **Testing:** Unit tests and integration test coverage
+- **Deployment:** Live demo with proper CI/CD setup
+
+## 📝 Submission Guidelines
+
+### Required Deliverables
+1. **Source Code:** GitHub repository with clear commit history
+2. **Live Demo:** Deployed application with working features
+3. **Documentation:** Setup instructions, feature overview, readme
+4. **Database Schema:** ERD or schema documentation (bonus)
+
+### Submission Format
+- **Repository:** Public GitHub repository
+- **README:** Comprehensive project documentation
+- **Demo URL:** Live application link
+- **Video Demo:** Optional but recommended walkthrough
 
 -   **Frontend:** React, TypeScript, Vite, Tailwind CSS
 -   **Components:** Radix UI, Lucide Icons
@@ -258,13 +326,6 @@ We welcome contributions from the community! If you'd like to contribute to Impa
 4.  Submit a pull request with a clear description of your changes.
 
 Please adhere to the project's coding standards and best practices.
-
-## 💬 Support
-
-If you encounter any issues or have suggestions for improvement, please feel free to:
-
-* Open an issue on GitHub: [https://github.com/asfand-dev/impact-cv/issues](https://github.com/asfand-dev/impact-cv/issues)
-* Reach out via asfand.dev@gmail.com
 
 ## 📄 License
 
