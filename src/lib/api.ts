@@ -4,7 +4,7 @@
 const DEFAULT_USER_ID = 1;
 
 // Base API URL
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://impactcv-backend.onrender.com/api';
 
 // Types
 interface ResumeData {
