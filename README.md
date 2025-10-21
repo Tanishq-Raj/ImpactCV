@@ -1,4 +1,4 @@
-# 🚀 ImpactCV - Create Resumes That Make an Impact
+# 🚀 Engaze Resume Builder(ImpactCV) - Create Resumes That Make an Impact
 
 > A modern, intuitive resume builder application that helps you create professional CVs that stand out
 
