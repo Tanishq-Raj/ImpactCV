@@ -1,4 +1,4 @@
-# 🚀 Engaze Resume Builder(ImpactCV) - Create Resumes That Make an Impact
+# 🚀 ImpactCV - Create Resumes That Make an Impact
 
 > A modern, intuitive resume builder application that helps you create professional CVs that stand out
 
@@ -51,6 +51,12 @@
 ## 🎯 Objective
 
 ImpactCV is a simplified yet powerful resume builder inspired by premium services like Enhancv and FlowCV, offering these key features:
+=======
+# 🚀 ImpactCV - Create Resumes That Make an Impact
+## 🎯 Objective
+
+ImpactCV is a simplified version of resume builders inspired by Enhancv and FlowCV, covering the following key features:
+>>>>>>> 33b681eb7ebd6fb706359c31e406ae958c4f632f
 
 1. **On-canvas Editing** – Section-based editing inside the resume itself
 2. **Design Customization** – Change colors, fonts, and styles
@@ -60,12 +66,24 @@ ImpactCV is a simplified yet powerful resume builder inspired by premium service
 6. **Reordering Sections** – Drag-and-drop functionality
 7. **Public Sharing** – Generate a shareable link
 
+<<<<<<< HEAD
+=======
+## 🧩 Components Implemented
+
+- **Resume Sections** – With full customizability
+- **Templates** – Multiple template designs
+- **Design & Font Styling** – Consistent, reusable, and scalable
+- **Schema Design** – Efficient schema for data management
+- **UI Polishing** – Micro-interactions, attention to UX consistency
+
+>>>>>>> 33b681eb7ebd6fb706359c31e406ae958c4f632f
 ## ✨ Overview
 
 **ImpactCV** is a modern, intuitive, and user-friendly web application designed to empower you to create professional and **impactful** resumes (CVs) with ease. Whether you're just starting your career or looking to make a change, ImpactCV provides the tools and flexibility you need to showcase your skills and experience effectively.
 
 Forget tedious formatting and generic templates. ImpactCV offers a streamlined experience with real-time previews, customizable themes, and even AI-powered job tailoring to optimize your resume for both recruiters and Applicant Tracking Systems (ATS) to help you easily land your dream role.
 
+<<<<<<< HEAD
 ## 🧩 Components Implemented
 
 ```
@@ -81,10 +99,13 @@ Forget tedious formatting and generic templates. ImpactCV offers a streamlined e
 └─────────────────────────────────────────────────────────┘
 ```
 
+=======
+>>>>>>> 33b681eb7ebd6fb706359c31e406ae958c4f632f
 ## ⚙️ Key Features
 
 ### Intuitive Interface
 
+<<<<<<< HEAD
 -   **Real-Time Preview:** Instantly visualize changes as you type
 -   **Drag-and-Drop Sections:** Customize your CV layout effortlessly
 -   **Editable Section Titles:** Personalize headings to match your unique style
@@ -532,6 +553,62 @@ The backend is built with Express.js and provides:
 3. Backend processes requests and interacts with the PostgreSQL database
 4. Results are returned to the frontend for display
 5. For exports, the backend generates files and provides download links
+=======
+-   **Real-Time Preview:** Instantly visualize changes.
+-   **Drag-and-Drop Sections:** Customize your CV layout effortlessly.
+-   **Editable Section Titles:** Personalize headings to match your unique style.
+
+### Comprehensive Configuration
+
+-   **Basic Information:** Name, role, location, contact details, and social links.
+-   **Professional Summary:** Craft compelling professional summaries.
+-   **Experience & Education:** Clearly structure professional history and educational background.
+-   **Skills & Projects:** Highlight expertise and showcase impactful projects.
+
+### AI-Powered Job Tailoring 🤖
+
+-   **"Tailor for Job Description" Button:** Let Gemini AI automatically optimize your CV content based on specific job roles, ensuring maximum compatibility with ATS and increased recruiter visibility.
+
+### Beautiful & Distinctive Themes 🎨
+
+-   Choose from **20 unique themes** including Basic, Casual, Professional, Creative, Modern, Business, and many more, each transforming your CV into a visually compelling document.
+
+### Photo Integration 📸
+
+-   Optional profile photo upload feature dynamically adjusts your CV layout.
+
+### Import & Export Options 📁
+
+-   **JSON Import/Export:** Quickly import or export your CV configuration.
+-   **HTML Export:** Self-contained HTML file ready to host or share.
+-   **PDF Export:** Simple, high-quality print or PDF generation.
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **React** - UI library for building component-based interfaces
+- **TypeScript** - For type-safe code
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Unstyled, accessible UI components
+- **Lucide React** - Icon library
+- **React-Quill** - Rich text editor
+- **UUID** - For generating unique identifiers
+- **Sonner** - Toast notifications
+- **React-Resizable-Panels** - For resizable UI components
+
+### Backend
+- **Express** - Node.js web application framework
+- **PostgreSQL** - Relational database
+- **Multer** - For file uploads
+- **CORS** - Cross-Origin Resource Sharing middleware
+- **dotenv** - Environment variable management
+
+### Development Tools
+- **ESLint** - Code linting
+- **TypeScript-ESLint** - TypeScript integration for ESLint
+- **SWC** - Fast JavaScript/TypeScript compiler
+>>>>>>> 33b681eb7ebd6fb706359c31e406ae958c4f632f
 
 ## 📊 Evaluation Criteria
 
@@ -589,7 +666,11 @@ To run ImpactCV locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
+<<<<<<< HEAD
     git clone https://github.com/Tanishq-Raj/ImpactCV.git
+=======
+    git clone https://github.com/asfand-dev/impact-cv.git
+>>>>>>> 33b681eb7ebd6fb706359c31e406ae958c4f632f
     cd impact-cv
     ```
 
